@@ -6,6 +6,7 @@ public partial class DetailPage  : ContentPage
 {
      DetailPage(Book book)
     {
+    
         InitializeComponent();
         TitleLabel.Text = $"Title: {book.Title}";
         AuthorLabel.Text = $"Author: {book.AuthorName}";
